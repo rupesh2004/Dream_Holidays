@@ -1,0 +1,235 @@
+body{
+	background-image: url("t1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#h3{
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left: 70px;
+}
+#sp1{
+	font-size: 50px;
+}
+ul {
+  list-style-type: none;
+  margin-left: 600px;
+  margin-top: -95px;
+  padding: 0;
+  overflow: hidden;
+   font-weight: bold;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 30px;
+  color: #113CFC;
+}
+#p{
+	font-family: "Segoe UI", "Semibold Italic", monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+#p1{
+	margin-left: 20px;
+}
+
+a:link{
+	
+  	background-color: transparent;
+  	text-decoration: none;
+}
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.h1{
+	color: white;
+}
+#head1{
+	margin-left: 330px;
+	color: red;
+	font-size: 60px;
+	margin-top: 100px;
+	font-family: "Segoe Print", "Bold Oblique", monospace;
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 1s;
+	animation-name: example;
+  	animation-duration: 5s;
+}
+#head2{
+	margin-left: 400px;
+	margin-top: -50px;
+	color: white;
+	font-size: 60px;
+	font-family: "Segoe Print", "Bold Oblique", monospace;
+	animation-name: example1;
+  	animation-duration: 5s;
+}
+@keyframes example {
+  from {color: red;}
+  to {color: yellow;}
+  from {color: red;}
+  to {color: yellow;}
+
+}
+@keyframes example1 {
+  from {color: red;}
+  to {color: yellow;}
+}
+
+/---------------------------------------/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+	
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+#hero::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;	
+	opacity: 0.7;
+	z-index: -1;
+}
+#hero .hero {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#hero h1 {
+	display: block;
+	width: fit-content;
+	font-size: 3rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 1s;
+}
+#hero h1:nth-child(1) {
+	animation-delay: 1s;
+}
+#hero h1:nth-child(2) {
+	animation-delay: 2s;
+}
+
+#hero h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: crimson;
+	animation: text_reveal_box 1s ease;
+	animation-delay: 0.5s;
+}
+#hero h1:nth-child(1) span {
+	animation-delay: 0.5s;
+}
+#hero h1:nth-child(2) span {
+	animation-delay: 1.5s;
+}
+#hero h1:nth-child(3) span {
+	animation-delay: 2.5s;
+}
+
+
+/* Keyframes */
+@keyframes hamburger_puls {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
+}
+@keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: red;
+	}
+}
+@keyframes text_reveal_name {
+	100% {
+		color: crimson;
+		font-weight: 500;
+	}
+}
+/* End Keyframes */
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+	.cta {
+		font-size: 1.5rem;
+		padding: 20px 60px;
+	}
+	h1.section-title {
+		font-size: 4rem;
+	}
+
+	/* Hero */
+	#hero h1 {
+		font-size: 4rem;
+	}
+	/* End Hero */
+}
+#h1{
+	margin-left: 100px;
+	color: white;
+}
+.cta {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid #C2FFF9;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	margin-left: 450px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: #009DAE;
+}
+#dt{
+	height: 30px;
+	width: 30px;
+	
+}

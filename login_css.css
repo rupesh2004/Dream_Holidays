@@ -1,0 +1,265 @@
+body{
+	background-color: #F90716; 
+}
+#login2{
+	width: 300;
+	height: 300px;
+	margin-left: 200px;
+	margin-top: 30px;
+	box-shadow: 10px 10px 5px #ccc;
+	border:2px solid #fff;
+}
+#h1{
+	margin-left: 500px;
+	font-size: 40px;
+	font-family: "Segoe UI", "Semibold Italic", monospace;
+	font-weight: bold;
+	color: #2FDD92;
+  	text-shadow: 10px 5px 5px #000000;
+}
+.vl {
+  border-left: 3px solid #34BE82;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -90px;
+  margin-top:340px;
+  top: 0;
+}
+#t1{
+	margin-left: 630px;
+	margin-top: -200px;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: "Segoe UI", "Semibold Italic", monospace;
+	font-size: 20px;
+	border-style: outset;
+	border-radius: 15px;
+	position: absolute;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	background-color: #D4ECDD;
+
+}
+#t2{
+	margin-left: 630px;
+	margin-top: -100px;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right:40px;
+	font-family: "Segoe UI", "Semibold Italic", monospace;
+	font-size: 20px;
+	border-style: outset;
+	border-radius: 15px;
+	position: absolute;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	background-color: #D4ECDD;
+}
+#pass{
+	margin-left: 800px;
+	font-family: "Segoe UI", "Semibold Italic", monospace;
+	font-size: 20px;
+	margin-top: -100px;
+}
+#forgot{
+	color: black;
+	text-decoration: none;
+}
+#forgot:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+}
+#pass{
+	color: white;
+}
+#btn{
+	margin-left: 690px;
+	margin-top: 20px;
+	padding: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-radius: 70px;
+	text-align: center;
+	font-family: "Segoe UI", "Semibold Italic", monospace;
+	font-size: 20px;
+	color: red;
+}
+#btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 30px;
+  font-family: Georgia;
+  color: #0eeded;
+  font-size: 20px;
+  background: #3934d9;
+  padding: 15px 80px 15px 80px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #327eb8;
+  text-decoration: none;
+}
+
+
+#con{
+	margin-left: 500px;
+	font-family: "Times New Roman", "Bold", cursive;
+	font-stretch: ultra-expanded;
+	font-size: 50px;
+	display: inline-block;
+	margin-top: 100px;
+	color: #09009B;
+	box-shadow: 5px 5px 5px  #C2FFF9;
+	padding-right:30px;
+	padding-left: 30px;
+  	transform: scale(3, 1.9);
+  	margin-bottom: 40px;
+
+
+}
+#cont{
+	background-repeat: no-repeat;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	width: 1280px;
+	height: 300px;
+}
+
+
+links : hover{
+  color: red;
+}
+.copy{
+    margin-top: -100px;
+    font-size: 20px;
+    color: black;
+    margin-left: 100px;
+
+}
+.copy1{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.links{
+  font-size: 20px;
+  background-color: #009DAE;
+  padding: 80px 0 20px;
+  color: red;
+  padding-left: 400px;
+  margin-top: 0px;
+  margin-bottom: -100px;
+  margin-top: -19px;
+  font-family:'Times New Roman', bold;
+  margin-left: -10px;
+  margin-right: -7px;
+}
+links : hover{
+  color: red;
+}
+.color{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+#dt1{
+	margin-left:  -50px;
+    width: 100px;
+    height: 100px;
+}
+#insta{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  margin-left: 50px;
+    color: white;
+}
+#insta:hover{
+	color: black;
+}
+.insta1{
+	margin-left: 250px;
+
+}
+#h31{
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left: 70px;
+	display: inline;
+
+}
+#sp1{
+	font-size: 50px;
+}
+#dt{
+	height: 30px;
+	width: 30px;
+	
+}
+#p{
+	font-family: "Segoe UI", "Semibold Italic", monospace;
+	font-size: 20px;
+	text-decoration: none;
+	/*margin-left: 30px !important;*/
+
+}
+ul {
+  list-style-type: none;
+  margin-left: 500px;
+  margin-top: -190px;
+  padding: 0;
+  overflow: hidden;
+   font-weight: bold;
+}
+.co{
+	background-color: #009DAE;
+	padding-bottom: 60px;
+	padding-top: 50px;
+	padding-right: -10px;
+
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 40px;
+  color: #113CFC;
+}
+#p:link{
+	
+  	background-color: transparent;
+  	text-decoration: none;
+}
+#p:hover{
+	color: red;
+	
+}
+#lo{
+	color: blue;
+	margin-top: 10px;
+	text-decoration: none;
+	margin-left: 0px;
+}
+#lo:hover{
+	color: red;
+}
+.in1{
+    margin-left: 100px !important;
+  }

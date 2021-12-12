@@ -1,0 +1,180 @@
+#h2{
+	margin-left: 310px;
+	color: #000000;
+  background-color: #57CC99;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: "Segoe UI", "Semibold", Cursive;
+  box-sizing: content-box;  
+  width: 550px;
+  height: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  border: 5px solid #056676;
+  animation: myanimation 10s infinite;
+}
+@keyframes myanimation {
+  0% {color: red;}
+  25%{color:yellow;}
+  50%{color:green;}
+  75%{color:brown;}
+  100% {color: red;}
+}
+#taj{
+	margin-left: 150px;
+	margin-top: 50px;
+	font-size: 25px;
+}
+#t1{
+  margin-left: 130PX;
+	width: 1000px;
+	height: 500px;
+
+}
+body{
+  background-color: #71DFE7;
+}
+.numbertext{
+	/*margin-left: 450px;*/
+	color: #3E00FF;
+	font-size: 20px;
+  text-align: center;
+}
+.links{
+  font-size: 17px;
+  background-color: #28FFBF;
+  padding: 50px 0 20px;
+  color: red;
+
+}
+#sp1{
+  font-size: 50px;
+}
+#dt1{
+  height: 30px;
+  width: 30px;
+  
+}
+#p{
+  font-family: "Segoe UI", "Semibold Italic", monospace;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+ul {
+  list-style-type: none;
+  margin-left: 600px;
+  margin-top: -90px;
+  padding: 0;
+  overflow: hidden;
+   font-weight: bold;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 30px;
+  color: #113CFC;
+}
+.co1{
+  background-color: #009DAE;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: -5px;
+  padding-left: -10px
+  margin-left:-10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+#p:link{
+  
+    background-color: transparent;
+    text-decoration: none;
+}
+#p:hover{
+  color: red;
+  
+}
+#lo1{
+  color: blue;
+  margin-top: 2px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+#lo1:hover{
+  color: red;
+}
+#h3{
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 70px;
+
+
+}
+
+links : hover{
+  color: red;
+}
+.copy{
+  margin-top: 30px;
+  font-size: 20px;
+  color: black;
+  margin-left: 100px;
+
+}
+.copy1{
+  margin-top: 30px;
+  font-size: 20px;
+  color: black;
+  margin-left: 10px;
+
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.links{
+  font-size: 20px;
+  background-color: #ff4c68;
+  padding: 80px 0 20px;
+  color: red;
+  padding-left: 400px;
+  margin-top: 0px;
+  margin-bottom: -100px;
+  margin-top: -19px;
+  font-family:'Times New Roman', bold;
+  margin-left: -10px;
+  margin-right: -7px;
+}
+links : hover{
+  color: red;
+}
+.color{
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+body{
+background-color: #C2FFF9;
+}
+#dt{
+  margin-left: 135px;
+}
+#insta{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px; 
+  color: white;
+  text-decoration: none;
+}
+#insta:hover{
+  color: black;
+  text-decoration: underline;
+}
+.insta1{
+  margin-left: 250px;
+} 

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Form</title>
+	<link rel="icon" type="image/x-icon" href="signup.ico">
+	<link rel="stylesheet" type="text/css" href="sign_up.css">
+	<link rel="stylesheet" type="text/css" href="sign_up_css1.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+	<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<script src="image.js"></script>
+	<meta charset=utf-8 />
+
+
+	<style>
+	  article, aside, figure, footer, header, hgroup, 
+	  menu, nav, section { display: block; }
+	</style>
+
+</head>
+<body style="background-color: #C2FFF9;">
+
+
+			<div class="co">
+		
+	
+	<h3 id="h31"><span id="sp1" style="color: red">D</span>ream  <span id="sp1" style="color: red">H</span><img id="dt" src="dt.png">lidays</h3>
+
+    <ul class="nav justify-content-end mr-5 ">
+        <li class="nav-item">
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-5" href="Tourist_Places.html">Home</a>
+        </li>
+		<li class="nav-item">
+			<a class="nav-link mr-5" href="packages.html">Packages</a>
+		  </li>
+        <li class="nav-item">
+          <a class="nav-link mr-5" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-5" href="contact_us.html">Contact Us</a>
+        </li>
+      </ul>
+	</div>
+	<br><br>
+	<h1 class="text-blue text-center font-weight-bold " style="font-size: 55px;"> Sign Up</h1>
+	<br><br>
+		<div class="container"><br>
+		
+		<div class="col-lg-6 m-auto d-block">
+			
+			<!-- <form action="#"  > -->
+				
+				<div class="form-group">
+					<label for="user" class="font-weight-bold"> Username: </label>
+					<input type="text" name="user" placeholder="Create Username" class="form-control" id="user" autocomplete="off">
+					<span id="username" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="font-weight-bold"> Password: </label>
+					<input type="text" name="pass" placeholder="Create Password" class="form-control" id="pass" autocomplete="off">
+					<span id="passwords" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="font-weight-bold"> Confirm Password: </label>
+					<input type="text" name="conpass" placeholder="Confirm Password" class="form-control" id="conpass" autocomplete="off">
+					<span id="confrmpass" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="font-weight-bold"> Mobile Number: </label>
+					<input type="number" name="mobile" placeholder="Enter Mobile Number" class="form-control" id="mobileNumber" autocomplete="off" maxlength="10">
+					<span id="mobileno" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="font-weight-bold"> Email: </label>
+					<input type="text" name="email" placeholder="Enter Email" class="form-control" id="emails" autocomplete="off">
+					<span id="emailids" class="text-danger font-weight-bold"> </span>
+				</div><br>
+				<div class="d-flex justify-content-center ">
+					<a href="login.html">
+					<input type="button" name="submit" value="Submit" class="btn btn-success pl-5 pr-5"	autocomplete="off" onclick="return validation(event)">
+					</a>
+				</div>
+
+
+
+			<!-- </form><br><br> -->
+
+
+		</div>
+	</div>
+
+	<br><br><br><br>
+
+	  <div class="links">
+    <a href=""></a>
+    <img id="dt1" src="dt.png"><br>
+    <p class="copy">Don't Be A Tourist,Be A Traveler.</p><br>
+<a href="https://www.facebook.com/"  target="_blank"><i id="insta"  class="fab fa-facebook in1"></i></a>
+<a href="https://www.instagram.com/explore/?hl=en" target="_blank"><i id="insta" class= "fab fa-instagram"></i></a>
+<a href="https://twitter.com/home" target="_blank"><i id="insta" class="social-icon fab fa-twitter"></i></a>
+<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i id="insta"  class="far fa-envelope"></i></a>
+      <br>
+
+        <p class="copy1">Copyright © 2021 Dream Holydays. All rights reserved</p>
+      
+    </div>
+
+
+
+
+    <script type="text/javascript">
+    	
+    	function validation(event){
+    		var user=document.getElementById('user').value;
+    		var pass = document.getElementById('pass').value;
+			var confirmpass = document.getElementById('conpass').value;
+			var mobileNumber = document.getElementById('mobileNumber').value;
+			var emails = document.getElementById('emails').value;
+
+
+
+    		// User Field
+    		if (user == "") {
+    			document.getElementById('username').innerHTML="Name required";
+    			return false;
+    		}
+    		if((user.length <= 2) || (user.length > 20)) {
+				document.getElementById('username').innerHTML ="Username length must be between 2 to 20";
+				return false;	
+			}
+			if(!isNaN(user)){
+				document.getElementById('username').innerHTML ="Only characters are allowed";
+				return false;
+			}
+
+			// User Feild Completed
+
+			//Password feild
+			if(pass == ""){
+				document.getElementById('passwords').innerHTML ="Password required";
+				return false;
+			}
+			if(pass.length <= 5) {
+				document.getElementById('passwords').innerHTML ="Password should be greater than 5";
+				return false;	
+			}
+
+			if(confirmpass == ""){
+				document.getElementById('confrmpass').innerHTML ="Confirm password required";
+				return false;
+			}
+
+            if(confirmpass.length <= 5) {
+				document.getElementById('confrmpass').innerHTML ="Confirm password should be greater than 5";
+				return false;	
+			}
+			if(pass!=confirmpass){
+				document.getElementById('confrmpass').innerHTML ="Password does not match with confirm password";
+				return false;
+			}
+			//password feild completed
+
+			//mbile number feild
+			if(mobileNumber == ""){
+				document.getElementById('mobileno').innerHTML ="Mobile number required";
+				return false;
+			}
+
+			if(isNaN(mobileNumber)){
+				document.getElementById('mobileno').innerHTML ="User must write digits only not characters";
+				return false;
+			}
+			if(mobileNumber.length!=10){
+				document.getElementById('mobileno').innerHTML ="Mobile Number must be 10 digits only";
+				return false;
+			}
+			//mbile number feild completed
+
+			var regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+			//email 
+			if(emails == ""){
+				document.getElementById('emailids').innerHTML ="Email required";
+				return false;
+			}
+			if(!emails.match(regex) ){
+				document.getElementById('emailids').innerHTML ="Please enter valid email";
+				return false;
+			}
+
+			let userArray = []
+			let userInfo = {
+				user : user,
+				pass : pass,
+				confirmpass : confirmpass,
+				emails : emails,
+				mobileNumber : mobileNumber
+			}
+
+			// if(localStorage.getItem("userArray") != null ) {
+			// 	 let data = JSON.parse(localstorage.getItem("userArray"));
+			// 	 userArray = data;
+				 
+			// }
+			userArray.push(userInfo);
+			localStorage.setItem("userArray",JSON.stringify( userArray));
+
+			// if((emails.charAt(emails.length-4)!='.') && (emails.charAt(emails.length-3)!='.')){
+			// 	document.getElementById('emailids').innerHTML =". Invalid Position";
+			// 	return false;
+			// }
+			//email completed
+    	}
+
+    </script>
+</body>
+</html>
