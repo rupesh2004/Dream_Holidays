@@ -1,0 +1,291 @@
+#nm{
+    font-size: 22px;
+    color: #F58840;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.a:hover{
+    
+}
+#root{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #8E05C2;
+    
+}
+#r1{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: "Segoe UI", "Italic", monospace;
+}
+#root:hover{
+    color: black;
+}
+#p{
+    margin-left: auto;
+    font-size: 50px;
+     
+}
+.h_nm{
+    font-weight: 700;
+    font-size: 17px;
+}
+#pr{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 190px;
+    margin-top: -50px;
+    text-decoration: line-through;
+}
+/* .row {
+    margin-left: 40px !important;
+} */
+.margin-40 {
+    margin-left: 40px !important;
+}
+#pr1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-top: -60px;
+    text-decoration: underline;
+}
+.font-sz1{
+    font-size: 20px;
+}
+#b1{
+    margin-left: 150px;
+}
+.know-btn {
+    /* margin-left: 70px !important; */
+    width: 50%;
+    margin-top: -10px;
+    
+}
+.aa:hover{
+    color: red;
+}
+.pr2{
+    font-weight: 700;
+    font-size: 17px;
+}
+.font-sz{
+    font-size: 25px;
+}
+.ac-price{
+    text-decoration: line-through;
+    font-weight: 400 !important;
+}
+.dis{
+    font-weight: 600 !important;
+    color:#008000;
+    
+}
+.collapsible {
+    background-color: #71DFE7;
+    color: #0F00FF;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 18px;
+    
+    padding-left: 70px;
+    border-radius: 20px;
+    padding-right: 70px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #2FDD92;
+    box-shadow: 0px 0px 18px 0 #D8B6A4;
+    
+  }
+  
+  .content {
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+
+
+  /* header amd footer */
+  .nav{
+    font-size: 20px;
+    margin-top: -50px;
+      margin-right: 40px;
+      color: black;
+  }
+  .nav:hover{
+    color: red !important;
+  }
+  .nav-item{
+    padding-left: 20px;
+  }
+  
+    #h31{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 70px;
+  
+  
+  }
+  #sp1{
+    font-size: 50px;
+  }
+  #dt{
+    height: 30px;
+    width: 30px;
+    
+  }
+  #p{
+    font-family: "Segoe UI", "Semibold Italic", monospace;
+    font-size: 20px;
+    text-decoration: none;
+  
+  }
+  ul {
+    list-style-type: none;
+  
+    margin-top: -90px;
+  
+    overflow: hidden;
+    font-weight: bold;
+  }
+  .co{
+    background-color: #009DAE;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+  
+  
+    color:black;
+  }
+  #p:link{
+    
+      background-color: transparent;
+      text-decoration: none;
+  }
+  #p:hover{
+    color: red;
+    
+  }
+  #lo{
+    color: black;
+    margin-top: -30px;
+    text-decoration: none;
+  
+    margin-left: 140px;
+  }
+  #lo:hover{
+    color: red;
+  }
+  
+  
+  
+  #con{
+    margin-left: 500px;
+    font-family: "Times New Roman", "Bold", cursive;
+    font-stretch: ultra-expanded;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 100px;
+    color: #09009B;
+    box-shadow: 5px 5px 5px  #C2FFF9;
+    padding-right:30px;
+    padding-left: 30px;
+      transform: scale(3, 1.9);
+      margin-bottom: 40px;
+  
+  
+  }
+  #cont{
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: 1280px;
+    height: 300px;
+  }
+  
+  
+  links : hover{
+    color: red;
+  }
+  .copy{
+    margin-top: -100px;
+    font-size: 20px;
+    color: black;
+    margin-left: 100px;
+  
+  }
+  .copy1{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+  
+  }
+  a:hover {
+      color: black;
+      text-decoration: underline;
+  }
+  
+  .links{
+    font-size: 20px;
+    background-color: #009DAE;
+    padding: 80px 0 20px;
+    color: red;
+    padding-left: 400px;
+    margin-top: 0px;
+    margin-bottom: -100px;
+    margin-top: -19px;
+    font-family:'Times New Roman', bold;
+    margin-left: -10px;
+    margin-right: -7px;
+  }
+  links : hover{
+    color: red;
+  }
+  .color{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+  }
+  body{
+  
+  }
+  #dt1{
+    margin-left:  -50px;
+    width: 100px;
+    height: 100px;
+  }
+  #insta{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  margin-left: 50px;
+    color: white;
+  }
+  #insta:hover{
+    color: black;
+  }
+  .insta1{
+    margin-left: 550px ;
+  }
+  .in1{
+    margin-left: 100px !important;
+  }
